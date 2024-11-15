@@ -184,6 +184,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  // TEST GIT
 #ifdef TX
 
 	  HAL_UART_Receive(&huart2, (uint8_t *)&nrf_tx_data, MAX_SIZE, 250);
